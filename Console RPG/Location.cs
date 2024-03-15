@@ -157,7 +157,7 @@ namespace Console_RPG
                     description = descriptionAlt;
                     Resolve(true);
                 }
-                else if (rand.Next(0, 2999) == 0 && !fromBattle)
+                else if (rand.Next(0, 2) == 0 && !fromBattle)
                 {
                     Program.Write("!Encounter!", 2000, true);
                     int chosen = rand.Next(0, battles.Count);
